@@ -1,0 +1,16 @@
+//write a function to calculate power 
+
+#include <stdio.h>
+#include<math.h>
+int calculate();
+int main(){
+    calculate(pow);
+    printf("%d", pow);
+
+}
+int calculate(){
+    int i;
+    printf("enter number : \n");
+    scanf("%d", &i);
+    pow(2,2);
+}
